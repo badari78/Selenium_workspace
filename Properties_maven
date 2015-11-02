@@ -1,0 +1,12 @@
+echo export "JAVA_HOME=\$(/usr/libexec/java_home)" >> ~/.bash_profile
+
+export M2_HOME=/usr/local/apache-maven/apache-maven-3.3.3
+export M2=$M2_HOME/bin
+export PATH=$M2:$PATH
+echo $JAVA_HOME
+
+
+
+
+
+compendiumdev.co.uk/selenium
